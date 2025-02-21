@@ -3,8 +3,9 @@
 @tailwind utilities;
 
 :root {
-  --background: #cab8ff;
+  --background: #dce5ea;
   --foreground: #171717;
+  --font-roboto-condensed: "Roboto Condensed", sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,7 +18,7 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-roboto-condensed), Arial, Helvetica, sans-serif;
   box-sizing: border-box;
   overflow-x: hidden;
 }
