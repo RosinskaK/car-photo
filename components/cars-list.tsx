@@ -7,19 +7,19 @@ import Link from "next/link";
 
 function CarsList() {
   return (
-    <div className="flex flex-col p-2 mb-12 h-full w-full">
+    <div className="flex flex-col p-5 mb-12 h-full w-full">
       <h1 className="text-2xl font-bold pb-4">Ogłoszeń()</h1>
       <ul className="gap-5 font-roboto w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 ">
         {cars.map((p) => (
           <li
             key={p.id}
-            className=" border rounded-md shadow-md bg-white/80 h-auto min-w-[260px] "
+            className=" border rounded-md shadow-md bg-[#FFFFFF] h-auto min-w-[260px] "
           >
             <Link
               href={`/products/${p.id}`}
               className="text-gray-700 hover:text-black"
             >
-              <div className="h-[200px] bg-red-500 rounded-t-md w-auto">
+              <div className="h-[200px] bg-black rounded-t-md w-auto">
                 zdjęcie
               </div>
               <article className="p-2">

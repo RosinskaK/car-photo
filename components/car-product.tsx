@@ -16,7 +16,7 @@ function CarProduct({ product }: ProductProps) {
 //   }
 
   return (
-    <main className="p-3">
+    <main className="p-3 flex justify-center flex-col items-center">
       <h1 className="text-3xl font-bold">{product.name}</h1>
       <p className="text-lg">{product.shortDescription}</p>
       <p className="text-xl font-semibold mt-2">{product.price} zł</p>

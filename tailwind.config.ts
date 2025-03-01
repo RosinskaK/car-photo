@@ -13,7 +13,8 @@ export default {
         foreground: "var(--foreground)",
       },
       fontFamily: {
-        roboto: "var(--font-roboto-condensed)", 
+        roboto: "var(--font-roboto-condensed)",
+        geist: "var(--font-geist-sans)",
       },
     },
   },
